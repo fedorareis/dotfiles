@@ -1,1 +1,38 @@
-/Users/kylereis/.gitconfig
+[user]
+	name = fedorareis
+	email = fedorareis@gmail.com
+	signingkey = 2DCE5D6359BEC47F
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[core]
+	excludesfile = /Users/kylereis/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[push]
+	default = simple
+[color]
+	ui = auto
+[credential]
+	helper = osxkeychain
+[commit]
+	gpgSign = true
+[rerere]
+	enabled = true
+[pull]
+	rebase = preserve
+[gpg]
+	program = /usr/local/bin/gpg2

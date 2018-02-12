@@ -1,1 +1,6 @@
-/Users/kylereis/.gitignore_global
+*~
+.DS_Store
+.idea/
+.gradle/
+
+*.iml
