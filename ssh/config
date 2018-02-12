@@ -1,0 +1,19 @@
+Host *
+    UseKeychain yes
+    AddKeysToAgent yes
+
+Host code.its.calpoly.edu
+    IdentityFile ~/.ssh/kjreis_rsa
+
+Host bitbucket.org
+    IdentityFile ~/.ssh/id_rsa
+
+Host cru
+    HostName crucentralcoast.com
+    ForwardAgent yes
+    User slocrus1
+
+Host unix?? unix?
+    HostName %h.csc.calpoly.edu
+    ForwardAgent yes
+    User kjreis
