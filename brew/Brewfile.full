@@ -39,7 +39,6 @@ brew "exercism"
 brew "faad2"
 brew "lame"
 brew "libogg"
-brew "x264"
 brew "ffmpeg", args: ["with-libvorbis"]
 brew "fftw"
 brew "pcre2"
