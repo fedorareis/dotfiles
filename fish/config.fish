@@ -29,4 +29,4 @@ set --export --global LDFLAGS  -L/usr/local/opt/openssl/lib
 set --export --global CPPFLAGS -I/usr/local/opt/openssl/include
 set --export --global PKG_CONFIG_PATH /usr/local/opt/openssl/lib/pkgconfig
 set -g fish_user_paths "/usr/local/opt/dirmngr/bin" $fish_user_paths
-set -g fish_user_paths "/usr/local/opt/node@6/bin" $fish_user_paths
+# set -g fish_user_paths "/usr/local/opt/node@6/bin" $fish_user_paths
