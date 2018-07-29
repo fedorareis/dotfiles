@@ -22,7 +22,6 @@ set --export --global DJANGO_SETTINGS_MODULE settings.local
 #set --export --global PYENV_ROOT /usr/local/var/pyenv
 
 set --export --global VIRTUALFISH_HOME $WORKON_HOME
-eval (python3 -m virtualfish)
 
 # OpenSSL environment variables.
 set --export --global LDFLAGS  -L/usr/local/opt/openssl/lib
