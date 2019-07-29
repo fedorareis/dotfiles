@@ -11,18 +11,6 @@ set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
-function envset --on-event virtualenv_did_activate:resnet_internal_project
-    set --export --global DJANGO_SETTINGS_MODULE settings.local
-end
-
-set --export --global WORKON_HOME $HOME/Documents/coding/ResDev/virtualenvs
-set --export --global PROJECT_HOME $HOME/Documents/coding/ResDev/projects
-set --export --global DJANGO_SETTINGS_MODULE settings.local
-#set --export --global PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV "true"
-#set --export --global PYENV_ROOT /usr/local/var/pyenv
-
-set --export --global VIRTUALFISH_HOME $WORKON_HOME
-
 # OpenSSL environment variables.
 set --export --global LDFLAGS  -L/usr/local/opt/openssl/lib
 set --export --global CPPFLAGS -I/usr/local/opt/openssl/include

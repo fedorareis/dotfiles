@@ -15,20 +15,6 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 
 export TERM=xterm-color
 
-# Next set of lines is for ResDev
-export WORKON_HOME=$HOME/Documents/coding/ResDev/virtualenvs
-export PROJECT_HOME=$HOME/Documents/coding/ResDev/projects
-export DJANGO_SETTINGS_MODULE=settings.local
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
-export PYENV_ROOT=/usr/local/var/pyenv
-
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
-
-pyenv virtualenvwrapper
-
-
 # Setting PATH for Python 3.4
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
