@@ -63,7 +63,6 @@ brew "lua"
 brew "mad"
 brew "mercurial"
 brew "mitmproxy"
-brew "mongodb", restart_service: true
 brew "mysql"
 brew "nmap"
 brew "numpy"
