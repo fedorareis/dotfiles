@@ -34,7 +34,7 @@
 	enabled = true
 	autoupdate = true
 [pull]
-	rebase = preserve
+	rebase = merges
 [gpg]
 	program = /usr/local/bin/gpg2
 [fetch]
