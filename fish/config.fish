@@ -9,6 +9,8 @@ set -x ESSENTIA_INCLUDE_DIR /usr/local/include/essentia
 alias graphics "g++ -L/opt/local/lib -L/usr/local/lib -I/usr/local/include -lglfw3 -lglew -framework GLUT -framework OpenGL -v"
 set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 
+set -x GPG_TTY (tty)
+
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
 # OpenSSL environment variables.

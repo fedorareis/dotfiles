@@ -36,6 +36,6 @@
 [pull]
 	rebase = merges
 [gpg]
-	program = /usr/local/bin/gpg2
+	program = gpg2
 [fetch]
         prune = true
