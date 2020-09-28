@@ -70,7 +70,7 @@ brew "telnet"
 brew "yajl"
 brew "uwsgi"
 brew "wget"
-brew "wireshark", link: false
+brew "wireshark"
 brew "yarn"
 brew "zlib"
 brew "heroku/brew/heroku"
