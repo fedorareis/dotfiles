@@ -1,0 +1,1 @@
+/Users/kylereis/.config/fisherman/gitignore/completions/gitignore.fish
