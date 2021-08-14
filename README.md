@@ -14,6 +14,7 @@ install using `Fisher [Plugin]`
   
 ### Themes
 These are themes that I have found that I like.  
+  - [Tide](https://github.com/IlanCosman/tide)
   - [sektor](https://github.com/fisherman/sektor)
   - [Bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
   - [Metro](https://github.com/fisherman/metro)
