@@ -30,7 +30,7 @@
 [pull]
 	rebase = merges
 [gpg]
-	program = gpg2
+	program = gpg
 [fetch]
         prune = true
 [init]
