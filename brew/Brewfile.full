@@ -27,11 +27,11 @@ brew "cask"
 brew "ccache"
 brew "flac"
 brew "lame"
-brew "jpeg", link: true
 brew "libsamplerate"
 brew "srt"
 brew "ffmpeg@4"
 brew "gobject-introspection"
+brew "jpeg", link: true
 brew "chromaprint"
 brew "cmake"
 brew "cocoapods"
