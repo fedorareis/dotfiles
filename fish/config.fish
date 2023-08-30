@@ -19,3 +19,10 @@ set --export --global CPPFLAGS -I/usr/local/opt/openssl/include
 set --export --global PKG_CONFIG_PATH /usr/local/opt/openssl/lib/pkgconfig
 set -g fish_user_paths "/usr/local/opt/dirmngr/bin" $fish_user_paths
 # set -g fish_user_paths "/usr/local/opt/node@6/bin" $fish_user_paths
+
+# pnpm
+set -gx PNPM_HOME "/Users/kylereis/Library/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
