@@ -10,7 +10,7 @@ brew "fisher"
 brew "gh"
 brew "git"
 brew "lsd"
-brew "node"
+brew "node", link: false
 brew "pianobar"
 brew "pipx"
 brew "pkgconf"
