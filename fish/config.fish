@@ -3,6 +3,14 @@ set -g -x fish_greeting 'Welcome Kyle'
 
 alias ls="lsd"
 
+function flac2alac
+  mkdir alac_files
+  for flac_file in *.flac
+    set basename (basename "$flac_file" .flac)
+    ffmpeg -i "$flac_file" -c:v copy -c:a alac "alac_files/$basename.m4a"
+  end
+end
+
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
 # pnpm
