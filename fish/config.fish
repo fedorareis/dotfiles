@@ -20,9 +20,5 @@ if not string match -q -- $PNPM_HOME $PATH
 end
 # pnpm end
 
-# pyenv
-pyenv init - | source
-# pyenv end
-
 # Created by `pipx` on 2025-04-14 08:50:30
 set PATH $PATH /Users/kylereis/.local/bin
