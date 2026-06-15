@@ -1,106 +1,204 @@
 tap "homebrew/cask"
 tap "homebrew/core"
-tap "robinovitch61/tap"
-tap "supabase/tap"
+tap "robinovitch61/tap", trusted: true
+tap "supabase/tap", trusted: true
+# Decentralized dependency manager for Cocoa
 brew "carthage"
-brew "container", link: false
+# Create and run Linux containers using lightweight virtual machines
+brew "container"
+# Secure runtime for JavaScript and TypeScript
 brew "deno"
+# Diff that understands syntax
 brew "difftastic"
+# Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
+# User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Plugin manager for the Fish shell
 brew "fisher"
+# Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Command-line downloader for image-hosting site galleries and collections
 brew "gallery-dl"
+# GitHub command-line tool
 brew "gh"
+# Distributed revision control system
 brew "git"
+# Git-compatible distributed version control system
 brew "jj"
+# Clone of ls with colorful output, file type icons, and more
 brew "lsd"
+# Run LLMs with MLX
 brew "mlx-lm"
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# Development kit for the Java programming language
 brew "openjdk"
+# Command-line player for https://pandora.com
 brew "pianobar"
+# Execute binaries from Python packages in isolated environments
 brew "pipx"
+# Package compiler and linker metadata toolkit
 brew "pkgconf"
+# Theme for zsh
 brew "powerlevel10k"
+# Easily download, build, install, upgrade, and uninstall Python packages
 brew "python-setuptools"
+# Safe, concurrent, practical language
 brew "rust"
+# Formatting tool for reformatting Swift code
 brew "swiftformat"
+# Swift code generator for assets, storyboards, Localizable.strings, etc.
 brew "swiftgen"
+# Upgrade all the things
 brew "topgrade"
+# Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# A cli for downloading content from webtoon.com
 brew "robinovitch61/tap/webtoon-dl"
+# Supabase CLI
 brew "supabase/tap/supabase"
+# Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Command-line interface for 1Password
 cask "1password-cli"
+# Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# Image editing and design software
 cask "affinity"
+# Professional graphic design software
 cask "affinity-designer"
+# Professional image editing software
 cask "affinity-photo"
+# Application launcher and productivity software
 cask "alfred"
+# Application uninstaller
 cask "appcleaner"
+# Chromium based browser
 cask "arc"
+# Integrated CAD, CAM, CAE, and PCB software
 cask "autodesk-fusion"
+# 3D model slicing software for 3D printers, maintained by Bambu Lab
 cask "bambu-studio"
+# Tool to customise input devices and automate computer systems
 cask "bettertouchtool"
+# 3D creation suite
 cask "blender"
+# Volume booster and equaliser software
 cask "boom-3d"
+# A tiny browser selector
 cask "browserino"
+# E-books management software
 cask "calibre"
+# Create and run Linux containers using lightweight virtual machines
 cask "container"
+# Server and cloud storage browser
 cask "cyberduck"
+# API documentation browser and code snippet manager
 cask "dash"
+# Browser for SQLite databases
 cask "db-browser-for-sqlite"
+# Run Stable Diffusion locally
 cask "diffusionbee"
+# Voice and text chat software
 cask "discord"
+# Developer platform
 cask "dotnet-sdk"
+# Client for the Dropbox cloud storage service
 cask "dropbox"
+# Web browser
 cask "firefox"
 cask "font-fira-code-nerd-font"
 cask "font-monaspace"
+# Apple Mail plugin for GnuPG encrypted e-mails
 cask "free-gpgmail"
+# 3D parametric modeller
 cask "freecad"
+# Xcode extension for GitHub Copilot
 cask "github-copilot-for-xcode"
+# C# scripting capable version of Godot game engine
 cask "godot-mono"
+# Web browser
 cask "google-chrome"
+# Tools to protect your files
 cask "gpg-suite-no-mail"
+# Open-source video transcoder
 cask "handbrake-app"
+# iOS device backup software and file manager
 cask "iexplorer"
+# Software for iLok devices
 cask "ilok-license-manager"
+# System monitoring app
 cask "istat-menus"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Menu bar manager
 cask "jordanbaird-ice"
+# Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
+# End-to-end encryption software
 cask "keybase"
+# Video format converter (transcoder)
 cask "makemkv"
+# Multi-platform web browser
 cask "microsoft-edge"
+# Intercept, modify, replay, save HTTP/S traffic
 cask "mitmproxy"
+# Administration tool for Native Instruments products
 cask "native-access"
+# VPN client for secure internet access and private browsing
 cask "nordvpn"
+# App to write, plan, collaborate, and get organised
 cask "notion"
+# Open-source software for live streaming and screen recording
 cask "obs"
+# Get up and running with large language models locally
 cask "ollama-app"
+# Programmable solid 3D CAD modeller
 cask "openscad@snapshot"
+# Web browser
 cask "opera"
+# G-code generator for 3D printers
 cask "orcaslicer"
+# Collaboration platform for API development
 cask "postman"
+# Peer to peer Bitorrent client
 cask "qbittorrent"
+# Design tool that creates functional graphics
 cask "rive"
+# Instant messaging application focusing on security
 cask "signal"
+# Team communication and collaboration software
 cask "slack"
+# Download manager for Spitfire audio libraries
 cask "spitfire-audio"
+# Music streaming service
 cask "spotify"
+# Video game digital distribution service
 cask "steam"
+# Xcode Extension for reformatting Swift code
 cask "swiftformat-for-xcode"
+# Web browser focusing on security
 cask "tor-browser"
+# 3D printer and slicing GUI
 cask "ultimaker-cura"
+# Open-source code editor
 cask "visual-studio-code"
+# Open-source code editor
 cask "visual-studio-code@insiders"
+# Web browser with built-in email client focusing on customization and control
 cask "vivaldi"
+# Multimedia player
 cask "vlc"
+# Rust-based terminal
 cask "warp"
+# Network protocol analyzer
 cask "wireshark-app"
+# Multiplayer code editor
 cask "zed"
+# Gecko based web browser
 cask "zen"
+# Video communication and virtual meeting platform
 cask "zoom"
 vscode "antyos.openscad"
 vscode "bbutner.heroicons-preview"
