@@ -1,3 +1,4 @@
+tap "anomalyco/tap"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "robinovitch61/tap", trusted: true
@@ -44,6 +45,10 @@ brew "pkgconf"
 brew "powerlevel10k"
 # Easily download, build, install, upgrade, and uninstall Python packages
 brew "python-setuptools"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Safe, concurrent, practical language
 brew "rust"
 # Formatting tool for reformatting Swift code
@@ -54,6 +59,8 @@ brew "swiftgen"
 brew "topgrade"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode", trusted: true
 # A cli for downloading content from webtoon.com
 brew "robinovitch61/tap/webtoon-dl"
 # Supabase CLI
@@ -80,17 +87,17 @@ cask "arc"
 cask "autodesk-fusion"
 # 3D model slicing software for 3D printers, maintained by Bambu Lab
 cask "bambu-studio"
-# Tool to customise input devices and automate computer systems
-cask "bettertouchtool"
 # 3D creation suite
 cask "blender"
 # Volume booster and equaliser software
 cask "boom-3d"
-# A tiny browser selector
 cask "browserino"
 # E-books management software
 cask "calibre"
-# Create and run Linux containers using lightweight virtual machines
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
 cask "container"
 # Server and cloud storage browser
 cask "cyberduck"
@@ -200,13 +207,14 @@ cask "zed"
 cask "zen"
 # Video communication and virtual meeting platform
 cask "zoom"
+vscode "anthropic.claude-code"
 vscode "antyos.openscad"
 vscode "bbutner.heroicons-preview"
 vscode "bradlc.vscode-tailwindcss"
 vscode "dbaeumer.vscode-eslint"
+vscode "denoland.vscode-deno"
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
-vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "gruntfuggly.todo-tree"
 vscode "jacqueslucke.blender-development"
@@ -217,10 +225,12 @@ vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode.cpptools"
+vscode "ollama.ollama"
 vscode "orta.vscode-jest"
 vscode "rust-lang.rust-analyzer"
 vscode "ryu1kn.partial-diff"
 vscode "simonsiefke.svg-preview"
+vscode "sst-dev.opencode"
 vscode "streetsidesoftware.code-spell-checker"
 vscode "tamasfe.even-better-toml"
 vscode "tauri-apps.tauri-vscode"
