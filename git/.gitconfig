@@ -26,9 +26,13 @@
 [diff]
 	tool = difftastic
 	external = difft
+	algorithm = histogram
 [difftool]
 	prompt = false
 [difftool "difftastic"]
 	cmd = difft "$LOCAL" "$REMOTE"
 [pager]
 	difftool = true
+[merge "weave"]
+	name = Entity-level semantic merge
+	driver = /opt/homebrew/bin//weave-driver %O %A %B %L %P
