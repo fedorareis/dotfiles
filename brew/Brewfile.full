@@ -187,6 +187,8 @@ cask "spotify"
 cask "steam"
 # Xcode Extension for reformatting Swift code
 cask "swiftformat-for-xcode"
+# System monitor that identifies resource-heavy processes
+cask "task-manager-tmog"
 # Web browser focusing on security
 cask "tor-browser"
 # 3D printer and slicing GUI
